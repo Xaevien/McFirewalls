@@ -2,6 +2,7 @@
 Simple management of Windows Firewall rules for a Minecraft server.
 
 McFirewalls is a Windows batch script designed to simplify the management of firewall rules for Minecraft servers. This script is written entirely by ChatGPT, I hope you find it useful. The script streamlines the process of adding or removing firewall rules associated with Minecraft Servers.
+also **it works for me** don't know why it might not work for you
 
 ## What it can do
 
@@ -61,3 +62,4 @@ AYYYY CHATGPT WHY YOU PLACE YOUR NAME ON TOP OF MINE, OML ITS THE AI UPRISING D;
 Feel free to contribute to the script or report issues through GitHub. Happy Minecrafting!
 
 Thanks for that ChatGPT, Yeah do what it said, I will prolly never touch this again.
+
