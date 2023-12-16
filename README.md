@@ -1,18 +1,21 @@
 # McFirewalls
 Simple management of Windows Firewall rules for a Minecraft server.
 
-McFirewalls is a Windows batch script designed to simplify the management of firewall rules for Minecraft servers. This script is written entirely by ChatGPT as so is most of the read me lol, but as creative directive, Xaevien, I hope you find it useful. The script streamlines the process of adding or removing firewall rules associated with Minecraft Servers.
+McFirewalls is a Windows batch script designed to simplify the management of firewall rules for Minecraft servers. This script is written entirely by ChatGPT, I hope you find it useful. The script streamlines the process of adding or removing firewall rules associated with Minecraft Servers.
 
 ## What it can do
 
 1. **Adding Firewall Rules:**
-   - Yall can now easily add firewall rules for your Minecraft servers to allow incoming and outgoing traffic on the specified port (default is '25565').
-   - Custom RuleName and Port values can be entered for personalized configurations, i.e. if you want to run two servers on diffrent ports for god knows what reason
-   - The script checks if the firewall rules already exist before attempting to add them. This was a nightmare to fix honestly at somepoint I had about 20 of the same rule, its fixed tho, dont worry
+   - Y'all can now easily add firewall rules for your Minecraft servers to allow incoming and outgoing traffic on the specified port (default is '25565').
+   - Custom RuleName and Port values can be entered for personalized configurations
+   i.e. if you want to run two servers on diffrent ports for god knows what reason
+   - The script checks if the firewall rules already exist before attempting to add them.
+   This was a nightmare to fix honestly at somepoint I had about 20 of the same rule, its fixed tho, dont worry
 
 2. **Removing Firewall Rules:**
-   - Users can remove previously added firewall rules associated with a Minecraft server. So yeah basicly the opposite of the above
-   - The script prompts for the RuleName and automatically removes the corresponding rules (TCP Inbound, UDP Inbound, TCP Outbound, UDP Outbound). Yw (I feel like the one guy that puts no effort in on the group project, I was nessary I swear)
+   - Users can remove previously added firewall rules associated with a Minecraft server.
+   So yeah basicly the opposite of the above
+   - The script prompts for the RuleName and automatically removes the corresponding rules (TCP Inbound, UDP Inbound, TCP Outbound, UDP Outbound). 
    - If no rules are found for the specified RuleName, a corresponding message is displayed.
 
 ## Prerequisites
@@ -46,6 +49,8 @@ Wow so simple!
 
 This script is provided as-is, and the authors assume no responsibility for any issues or damages resulting from its use. Users are encouraged to review and understand the script's functionality before execution.
 
+Not sure why ChatGPT added this but i'm gonna keep it in here just incase.
+
 ## Credits
 
 - **Author:** ChatGPT
@@ -54,4 +59,5 @@ This script is provided as-is, and the authors assume no responsibility for any 
 AYYYY CHATGPT WHY YOU PLACE YOUR NAME ON TOP OF MINE, OML ITS THE AI UPRISING D;
 
 Feel free to contribute to the script or report issues through GitHub. Happy Minecrafting!
+
 Thanks for that ChatGPT, Yeah do what it said, I will prolly never touch this again.
